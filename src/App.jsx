@@ -13,20 +13,30 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/login" element={
-          <AlreadyAuthRoute>
-            <Login />
-          </AlreadyAuthRoute>
-        } />
         <Route
-          path="/"
+          path="/01-Profile/login"
+          element={
+            <AlreadyAuthRoute>
+              <Login />
+            </AlreadyAuthRoute>
+          }
+        />
+        <Route
+          path="01-Profile/"
           element={
             <AuthRoute>
               <Home />
             </AuthRoute>
           }
         />
-        <Route path="/*" element={<h1>404 Not Found</h1>} />
+        <Route
+          path="/*"
+          element={
+            <h1>
+              404 Not Found <a href="/01-Profile">return home</a>
+            </h1>
+          }
+        />
       </Routes>
     </Router>
   );

@@ -5,7 +5,7 @@ import { Navigate } from "react-router-dom";
 const AuthRoute = ({ children }) => {
   if (!localStorage.getItem("jwtToken")) {
     // Redirect to login if not authenticated
-    return <Navigate to="/login" replace />;
+    return <Navigate to="/01-Profile/login" replace />;
   }
 
   // Render the children if authenticated

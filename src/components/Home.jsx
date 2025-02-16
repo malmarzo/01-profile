@@ -133,7 +133,7 @@ function Home() {
   async function handleSignout() {
     appContext.setState({ isAuthenticated: false });
     localStorage.removeItem("jwtToken");
-    navigate("/login");
+    navigate("/01-Profile/login");
   }
   
   // Data for the adusited projects pie chart

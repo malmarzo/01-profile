@@ -47,7 +47,7 @@ export default function Login() {
               localStorage.setItem("jwtToken", jwt);
 
               appContext.setState({ isAuthenticated: true });
-              navigate("/");
+              navigate("/01-Profile");
             } else {
               appContext.setState({ isAuthenticated: false });
                 console.log("Failed Auth")
