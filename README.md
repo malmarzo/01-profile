@@ -7,6 +7,7 @@ A Profile page website for Reboot01 students made using React JS.
 - Navigate to the correct directory `cd 01-profile`
 
 ## Usage
+- Install packages `npm install`
 - Run `npm run dev`
 - The website will start on port 5173
 
