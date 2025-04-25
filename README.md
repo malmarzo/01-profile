@@ -1,8 +1,18 @@
-# React + Vite
+# 01-Profile 
+A Profile page website for Reboot01 students made using React JS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Prerequisites
+- Make sure to have node and npm installed
+- Clone the GitHub repository by running `git clone https://github.com/malmarzo/01-profile.git`
+- Navigate to the correct directory `cd 01-profile`
 
-Currently, two official plugins are available:
+## Usage
+- Run `npm run dev`
+- The website will start on port 5173
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- View basic student information
+- View user activity and stats
+- Visualized stats using SVG graphs
+- JWT-Based Authentication
+- GraphQL data fetching
